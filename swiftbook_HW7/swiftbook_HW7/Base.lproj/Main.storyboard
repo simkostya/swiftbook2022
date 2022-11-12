@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cjb-Rs-Xvi">
-    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="swiftbook_HW7" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CpU-1P-YiY">
-                                <rect key="frame" x="16" y="703" width="132" height="75"/>
+                                <rect key="frame" x="16" y="735" width="132" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="132" id="1c6-sc-Mw3"/>
                                     <constraint firstAttribute="height" constant="75" id="91B-iv-9gM"/>
@@ -30,7 +30,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MuJ-aQ-rse">
-                                <rect key="frame" x="227" y="47" width="132" height="75"/>
+                                <rect key="frame" x="242" y="47" width="132" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="132" id="2Jt-Vy-2FV"/>
                                     <constraint firstAttribute="height" constant="75" id="h83-s1-NSd"/>
@@ -64,11 +64,11 @@
             <objects>
                 <viewController id="cjb-Rs-Xvi" customClass="ViewController" customModule="swiftbook_HW7" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HHI-PX-SfX">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nz2-Kn-8iR">
-                                <rect key="frame" x="42.000000000000007" y="703" width="112.66666666666669" height="75"/>
+                                <rect key="frame" x="42" y="735" width="120" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="d1Q-bT-JSG"/>
                                     <constraint firstAttribute="height" constant="75" id="i2N-LP-DaL"/>
@@ -81,7 +81,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F8e-Lh-1pN">
-                                <rect key="frame" x="219.66666666666666" y="703" width="112.33333333333334" height="75"/>
+                                <rect key="frame" x="227" y="735" width="120" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="3s2-l6-UjJ"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="ANc-ZM-Enb"/>
@@ -94,28 +94,26 @@
                                 </buttonConfiguration>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fJK-sQ-tB5">
-                                <rect key="frame" x="42" y="78" width="290" height="566"/>
+                                <rect key="frame" x="42" y="77.333333333333314" width="306" height="597"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="fJK-sQ-tB5" secondAttribute="height" multiplier="145:283" id="bDm-l1-lob"/>
-                                    <constraint firstAttribute="height" constant="566" id="ca4-gu-cHA"/>
-                                    <constraint firstAttribute="width" constant="290" id="tps-TX-Dli"/>
+                                    <constraint firstAttribute="width" secondItem="fJK-sQ-tB5" secondAttribute="height" multiplier="102:199" id="5oZ-zv-uve"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="at6-xw-8cI"/>
                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                         <constraints>
-                            <constraint firstItem="F8e-Lh-1pN" firstAttribute="top" secondItem="fJK-sQ-tB5" secondAttribute="bottom" constant="59" id="1Jg-PT-ZQF"/>
                             <constraint firstItem="F8e-Lh-1pN" firstAttribute="height" secondItem="nz2-Kn-8iR" secondAttribute="height" id="6fp-GU-dHh"/>
                             <constraint firstItem="F8e-Lh-1pN" firstAttribute="bottom" secondItem="at6-xw-8cI" secondAttribute="bottom" id="M9G-FH-fTG"/>
                             <constraint firstItem="F8e-Lh-1pN" firstAttribute="leading" relation="lessThanOrEqual" secondItem="nz2-Kn-8iR" secondAttribute="trailing" constant="65" id="Mcr-U7-uhI"/>
                             <constraint firstItem="F8e-Lh-1pN" firstAttribute="width" secondItem="nz2-Kn-8iR" secondAttribute="width" id="OkJ-Y2-sMW"/>
+                            <constraint firstItem="fJK-sQ-tB5" firstAttribute="top" relation="greaterThanOrEqual" secondItem="at6-xw-8cI" secondAttribute="top" constant="10" id="RSa-32-Lhr"/>
                             <constraint firstItem="at6-xw-8cI" firstAttribute="trailing" secondItem="F8e-Lh-1pN" secondAttribute="trailing" constant="43" id="U0n-7V-esb"/>
+                            <constraint firstItem="fJK-sQ-tB5" firstAttribute="centerX" secondItem="at6-xw-8cI" secondAttribute="centerX" id="VXX-Pv-Eah"/>
+                            <constraint firstItem="nz2-Kn-8iR" firstAttribute="top" secondItem="fJK-sQ-tB5" secondAttribute="bottom" constant="60.666666666666629" id="WiO-C3-pwx"/>
                             <constraint firstItem="nz2-Kn-8iR" firstAttribute="leading" secondItem="at6-xw-8cI" secondAttribute="leading" constant="42" id="dtl-uk-tat"/>
-                            <constraint firstItem="fJK-sQ-tB5" firstAttribute="top" secondItem="at6-xw-8cI" secondAttribute="top" constant="31" id="hdX-cY-Cul"/>
-                            <constraint firstItem="at6-xw-8cI" firstAttribute="trailing" secondItem="fJK-sQ-tB5" secondAttribute="trailing" constant="43" id="kSS-UJ-i5N"/>
-                            <constraint firstItem="fJK-sQ-tB5" firstAttribute="leading" secondItem="at6-xw-8cI" secondAttribute="leading" constant="42" id="opv-fa-ClS"/>
+                            <constraint firstItem="fJK-sQ-tB5" firstAttribute="leading" secondItem="nz2-Kn-8iR" secondAttribute="leading" priority="999" id="e2Y-ef-fnX"/>
                             <constraint firstItem="nz2-Kn-8iR" firstAttribute="bottom" secondItem="at6-xw-8cI" secondAttribute="bottom" id="wpe-GF-jkb"/>
                         </constraints>
                     </view>
